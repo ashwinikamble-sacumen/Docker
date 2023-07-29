@@ -12,3 +12,25 @@ WORKDIR: This sets the working directory for subsequent commands in the Dockerfi
 
 CMD: This specifies the command to run when the Docker container starts.
 
+
+Dockerfile : 
+A text file with instructions to build image
+Automation of Docker Image Creation
+
+FROM
+RUN
+CMD
+
+Step 1 : Create a file named Dockerfile
+
+Step 2 : Add instructions in Dockerfile
+
+Step 3 : Build dockerfile to create image : docker build -t imagename
+
+Step 4 : Run image to create container : docker run imagename 
+
+COMMANDS
+: docker build 
+: docker build -t ImageName:Tag directoryOfDocekrfile
+
+: docker run image
