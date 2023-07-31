@@ -25,9 +25,11 @@ Step 1 : Create a file named Dockerfile
 
 Step 2 : Add instructions in Dockerfile
 
-Step 3 : Build dockerfile to create image : docker build -t imagename
+Step 3 : Build dockerfile to create image : docker build -t imagename .
+example:  docker build -t python-image
 
 Step 4 : Run image to create container : docker run imagename 
+example:docker run python-image
 
 COMMANDS
 : docker build 
